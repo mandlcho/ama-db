@@ -1,0 +1,36 @@
+baseURL = 'https://mandlcho.github.io/ama-db/'
+languageCode = 'en-us'
+title = 'Mandl Knowledge Base'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    title = 'Mandl Knowledge Base'
+    description = 'Personal knowledge management and blog'
+    author = 'Mandl Cho'
+
+    defaultTheme = 'auto'
+    disableThemeToggle = false
+
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+
+[menu]
+    [[menu.main]]
+        identifier = 'home'
+        name = 'Home'
+        url = '/'
+        weight = 10
+    [[menu.main]]
+        identifier = 'search'
+        name = 'Search'
+        url = '/search'
+        weight = 20
+    [[menu.main]]
+        identifier = 'tags'
+        name = 'Tags'
+        url = '/tags'
+        weight = 30
